@@ -13,7 +13,9 @@ body{
     line-height: 44px;
     letter-spacing: 5px;
 }
-
+.header a{
+    text-decoration: none;
+}
 .logo{
     border-top: 4px solid #648880;
     color: white;
@@ -31,7 +33,7 @@ body{
     letter-spacing: normal;
     
 }
-a{
+.navigation a{
     color: white;
     text-decoration: none;
     padding: 5px;
@@ -41,7 +43,7 @@ a{
 a:hover{
     color:  #648880;
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5,h6{
     color:  #648880;
 }
 .contain, .cont{
@@ -53,8 +55,8 @@ h1,h2,h3,h4{
     line-height: 44px;
     background-color: #293F50;
     color: #fff;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 66px;
     padding-top: 22px;
 }
@@ -71,6 +73,7 @@ h1,h2,h3,h4{
     border-radius: 5px;
     font-size: 18px;
     padding: 20px;
+    margin-top: 20px;
     color: white;
 }
 .but:hover{
@@ -82,11 +85,36 @@ h1,h2,h3,h4{
 }
 .cont{
     display: flex;
-    justify-content: center;
+    flex: 1;
     align-items: center;
 }
-.cont img{
+.venue{
+    width: 960px;
+    background-image: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.venue-map{
+    margin: ;
     width: 70%;
+    height: 200px;
+}
+.cont-venue{
+    display: flex;
+    flex-direction: column;
+}
+.cont-theatre{
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+
+}
+.cont img{
+    width: 300px;
+    border-radius: 5px;
 }
 .footer{
     background-color: #293F50;
