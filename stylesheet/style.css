@@ -8,8 +8,6 @@ body{
     justify-content: space-between;
     align-items: center;
     font-weight: 100;
-    padding-left: 10px;
-    padding-right: 10px;
     line-height: 44px;
     letter-spacing: 5px;
 }
@@ -91,14 +89,15 @@ h1,h2,h3,h4,h5,h6{
 .venue{
     width: 960px;
     background-image: linear-gradient(to right, #a1d3b0, #f6f1d3);
-    height: 200px;
+    height: 150px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    font-size: 21px;
+    line-height: 33px;
 }
 .venue-map{
-    margin: ;
     width: 70%;
     height: 200px;
 }
@@ -109,7 +108,9 @@ h1,h2,h3,h4,h5,h6{
 .cont-theatre{
     display: flex;
     justify-content: space-between;
-    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 1.6;
 
 }
 .cont img{
