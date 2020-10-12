@@ -1,0 +1,97 @@
+body{
+    font-family: Lato, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 10%;
+}
+.header{
+    background-color: #293F50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 44px;
+    letter-spacing: 5px;
+}
+
+.logo{
+    border-top: 4px solid #648880;
+    color: white;
+    font-size: 48px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    
+}
+.logo:hover{
+    color: #648880;
+}
+.navigation h3{
+    letter-spacing: normal;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 10px;
+    letter-spacing: normal;
+}
+a:hover{
+    color:  #648880;
+}
+h1,h2,h3,h4{
+    color:  #648880;
+}
+.contain, .cont{
+    width: 960px;
+    margin: 0 auto;
+}
+.register{
+    text-align: center;
+    line-height: 44px;
+    background-color: #293F50;
+    color: #fff;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 66px;
+    padding-top: 22px;
+}
+.register h2{
+    font-size: 36px;
+}
+.register p{
+    font-size: 24px;
+    font-weight: 100;
+}
+.but{
+    background-color: #293F50;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+}
+.but:hover{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    color: #293F50;
+}
+/* .contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.footer{
+    background-color: #293F50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.copy{
+    color:  #648880;
+}
