@@ -80,11 +80,14 @@ h1,h2,h3,h4{
     padding: 20px;
     color: #293F50;
 }
-/* .contain{
+.cont{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
+.cont img{
+    width: 70%;
+}
 .footer{
     background-color: #293F50;
     display: flex;
