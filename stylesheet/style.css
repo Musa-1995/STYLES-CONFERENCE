@@ -67,14 +67,14 @@ h1, h3, h4, h5, p{
     text-align: justify;
 }
 .register{
+    width: 960px;
+    margin: 0 auto;
     text-align: center;
     line-height: 44px;
     background-color: #293F50;
     color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 66px;
-    padding-top: 22px;
+    padding: 22px 80px 66px 80px;
+    font-size: 24px;
 }
 .register h2{
     font-size: 36px;
@@ -132,7 +132,8 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    padding: 44px 30px 44px 30px;
+    font-size: 14px;
 }
 .copy{
     color:  #648880;
