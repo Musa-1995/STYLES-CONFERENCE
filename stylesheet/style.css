@@ -63,7 +63,8 @@ h1, h3, h4, h5, p{
     margin: 0 auto;
 }
 .clums{
-    width: 33.33%;
+    width: 30%;
+    text-align: justify;
 }
 .register{
     text-align: center;
@@ -122,8 +123,9 @@ h1, h3, h4, h5, p{
 .theatre{
     width: 40%;
 }
-.cont img{
-    width: 100%;
+img{
+    width: 288px;
+    border-radius: 5px;
 }
 .footer{
     background-color: #293F50;
