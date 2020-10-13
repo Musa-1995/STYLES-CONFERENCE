@@ -1,7 +1,10 @@
 body{
-    font-family: Lato, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-    padding: 10%;
+    background: #293f50;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: o auto;
 }
+
 .header{
     background-color: #293F50;
     display: flex;
@@ -38,15 +41,21 @@ body{
     margin-right: 10px;
     letter-spacing: normal;
 }
+a {
+    text-decoration: none;
+    color: #888;
+}
 a:hover{
     color:  #648880;
 }
 h1,h2,h3,h4,h5,h6{
     color:  #648880;
 }
+h1, h3, h4, h5, p{
+    margin-bottom: 22px;
+}
 .contain, .cont{
-    width: 960px;
-    margin: 0 auto;
+    min-width: 960px;
 }
 .register{
     text-align: center;
@@ -86,8 +95,9 @@ h1,h2,h3,h4,h5,h6{
     flex: 1;
     align-items: center;
 }
+/* venue */
 .venue{
-    width: 960px;
+    width: auto;
     background-image: linear-gradient(to right, #a1d3b0, #f6f1d3);
     height: 150px;
     text-align: center;
@@ -96,10 +106,11 @@ h1,h2,h3,h4,h5,h6{
     justify-content: space-around;
     font-size: 21px;
     line-height: 33px;
+    margin-bottom: 10%;
 }
 .venue-map{
     width: 70%;
-    height: 200px;
+    height: 250px;
 }
 .cont-venue{
     display: flex;
@@ -108,19 +119,22 @@ h1,h2,h3,h4,h5,h6{
 .cont-theatre{
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     line-height: 1.6;
 
 }
 .cont img{
     width: 300px;
     border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
 }
 .footer{
     background-color: #293F50;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100px;
 }
