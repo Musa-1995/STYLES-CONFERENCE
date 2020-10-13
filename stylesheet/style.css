@@ -98,7 +98,6 @@ h1,h2,h3,h4,h5,h6{
     justify-content: center;
 }
 .venue-map{
-    margin: ;
     width: 70%;
     height: 200px;
 }
@@ -125,4 +124,74 @@ h1,h2,h3,h4,h5,h6{
 }
 .copy{
     color:  #648880;
+}
+.reg{
+    background:linear-gradient(to right,#a1d3b0, #f6f1d3);
+    padding: 44px 0 22px 0;
+    text-align: center;
+}
+.pass{
+    background: #fff;
+    padding-top: 66px;
+    padding-bottom: 44px;
+}
+.grid{
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+.attend,.fill{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+.attend{
+    width: 66.66%;
+}
+input, textarea, select{
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+    width: 100%;
+
+}
+textarea{
+    height: 78px;
+}
+select{
+    height: 34px;
+    width: 60px;
+}
+button{
+    border: 0;
+    background: #648880;
+    padding: 11px 30px;
+    font-size: 14p;border-radius: 5px;
+
+}
+button:hover{
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+h1, h3, h4, h5, p{
+    margin-bottom: 22px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 44px;}
+h1,h2,h3,h4{
+    color: #648880;
 }
