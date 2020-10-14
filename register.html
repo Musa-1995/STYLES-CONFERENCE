@@ -20,7 +20,8 @@
      </header>
      <div class="raw">
        <div class="reg">
-        <div class="art"><h1 class=""> Register</h1>
+        <div class="art">
+          <h1 class="">Register</h1>
           <p>Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. <br> Conference passes only cost $99, one of the best values you'll find.</p>
       </div> 
        </div>
@@ -44,20 +45,20 @@
            </li>
        </div>
        <div class="fill"> 
-         <form action="">
+         <form id="myform" onsubmit="">
            <h6>Name</h6>
-           <input type="text" placeholder="Full name">
+           <input type="text" id="name"  placeholder="Full name" required>
            <h6>Email</h6>
-           <input type="text" placeholder="Email address">
+           <input type="email" id="email"  placeholder="Email address" required>
            <h6>Number of passes</h6>
-           <select name="passes" id="passes"><option value="1">1</option>
+           <select name="passes" id="passes" required><option value="1">1</option>
              <option value="2">2</option>
              <option value="3">3</option>
              <option value="4">4</option>
            </select>
            <h6>Comments</h6>
-           <textarea  rows="10"></textarea>
-           <button>PURCHASE</button>
+           <textarea id="comment" rows="10"></textarea>
+           <input type="submit" class="but"  value="PURCHASE">
          </form>
        </div>
       </div>
@@ -70,5 +71,6 @@
             <a href="register.html">REGISTER</a>
         </nav>
     </footer>
+    <script src="./JS/script.js"></script>
 </body>
 </html>

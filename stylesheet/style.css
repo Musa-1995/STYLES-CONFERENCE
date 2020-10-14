@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 *{
     border: 0;
     margin: 0;
     padding: 0;
     
 }
+=======
+>>>>>>> 170db88d6674eca31baeabdd3463f39605dcfe38
 body{
     background-color: #293f50;
     color: #888;
@@ -77,8 +80,9 @@ h1, h3, h4, h5, p{
     padding: 22px 80px 66px 80px;
     font-size: 24px;
 }
-.register h2{
+.register h1{
     font-size: 36px;
+    font-weight: 100;
 }
 .register p{
     font-size: 24px;
@@ -196,20 +200,29 @@ select{
     height: 34px;
     width: 60px;
 }
-button{
+.but{
     border: 0;
     background: #648880;
     padding: 11px 30px;
-    font-size: 14p;border-radius: 5px;
+    font-size: 14p;
+    border-radius: 5px;
 
 }
-button:hover{
+.but:hover{
+    border: 0;
+    background: #7fa79e;
+    padding: 11px 30px;
+    font-size: 14p;
     border-radius: 5px;
-    color: #fff;
     cursor: pointer;
+<<<<<<< HEAD
     display: inline-block;
     font-weight: 400;
     letter-spacing: .5px;
     margin: 0;
     text-transform: uppercase;
 }
+=======
+    color: white;
+}
+>>>>>>> 170db88d6674eca31baeabdd3463f39605dcfe38
