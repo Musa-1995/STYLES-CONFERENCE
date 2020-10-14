@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     font-weight: 100;
     line-height: 44px;
     letter-spacing: 5px;
@@ -175,6 +176,9 @@ img{
 .attend{
     width: 66.66%;
 }
+.list{
+    margin: 0 0 22px 30px;
+}
 input, textarea, select{
     border: 1px solid #c6c9cc;
     border-radius: 5px;
@@ -183,6 +187,7 @@ input, textarea, select{
     margin: 5px 0 27px 0;
     padding: 5px 8px;
     width: 100%;
+    font-size: 14px;
 }
 textarea{
     height: 78px;
@@ -195,7 +200,7 @@ select{
     border: 0;
     background: #648880;
     padding: 11px 30px;
-    font-size: 14p;
+    font-size: 14px;
     border-radius: 5px;
 
 }
@@ -203,8 +208,15 @@ select{
     border: 0;
     background: #7fa79e;
     padding: 11px 30px;
-    font-size: 14p;
+    font-size: 14px;
     border-radius: 5px;
     cursor: pointer;
     color: white;
+}
+[class*="col-"] {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width: 600px){
+
 }
