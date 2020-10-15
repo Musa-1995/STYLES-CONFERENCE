@@ -20,4 +20,5 @@ function recheck(e){
     let c = message.value;
 
     console.log(name,mail,p,c);
+    alert("Your form have submitted");
 }
