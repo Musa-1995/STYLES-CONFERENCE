@@ -4,7 +4,7 @@
 * UMAR MUSA
 * YUSUF QUEEN
 ## Live demo
-[See project live here] (https://raw.githack.com/Musa-1995/STYLES-CONFERENCE/header/index.html)
+[See project live here] (https://raw.githack.com/Musa-1995/STYLES-CONFERENCE/main/index.html)
 
 ## Functionalities
 It is a three page website
