@@ -1,7 +1,8 @@
 body{
     background-color: #293f50;
     color: #888;
-    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-weight: 100;
 }
 
 .header{
@@ -23,7 +24,8 @@ body{
     font-size: 150%;
     padding-top: 10%;
     padding-bottom: 1%;
-    font-weight: 100;   
+    font-weight: 100; 
+    width: 50%;  
 }
 .logo:hover{
     color: #648880;
@@ -47,7 +49,7 @@ a:hover{
 h1,h2,h3,h4,h5,h6{
     color:  #648880;
 }
-h1, h3, h4, h5, p{
+h1, h2, h3, h4, h5, p{
     margin-bottom: 4%;
 }
 .contain, .cont{
@@ -209,32 +211,47 @@ select{
     cursor: pointer;
     color: white;
 }
-/* @media only screen and (min-width: 360px){
-    *{
-        width: 100%;
-        font-size: 100%;
+@media only screen and (max-width: 480px){
+   h3 h4 h5 h6{
+       font-size: 22px;
+   }
+    .cont{
+        font-size: 18px;
+        padding: 2%;
+        margin: auto;
     }
-    .register{
+    .pass{
         width: 100%;
-        padding: 1%;
-        font-size: 90%;
+    }
+    .logo{
+        width: 100%;
         text-align: center;
-    }
-    .register p{
-        font-size: 80%;
-        line-height: 90%;
-        
+        padding: 3%;
     }
 
-    .grid{
+    .register, .navigation{
+        width: 97%;
+        padding: 2%;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .grid, .map, .map1, .clums, .theatre, .venue-map, .reg, .fill, .attend,.header, .reg {
         display: flex;
         flex-direction: column;
+        width: 97%;
+        padding: 1%;
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: justify;
+
     }
     
     .footer{
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
+        font-size: 18px;
         
     }
-} */
+} 
