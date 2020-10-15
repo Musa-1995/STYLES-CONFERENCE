@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="./stylesheet/style.css">
-    <link rel="stylesheet" href="./stylesheet/reset.css">
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="stylesheet" href="/stylesheet/reset.css">
 </head>
 <body>
     <header class="header cont">
-        <a href="index.html"><h1 class="logo">STYLES <br> CONFERENCE</h1>
+        <a href="/index.html"><h1 class="logo">STYLES <br> CONFERENCE</h1>
        </a>
          <nav class="navigation">
              <h3>August 24–26th — Chicago, IL</h3>
-             <a href="index.html">HOME</a>
-             <a href="venue.html">VENUE</a>
-             <a href="register.html">REGISTER</a>
+             <a href="/index.html">HOME</a>
+             <a href="/venue/venue.html">VENUE</a>
+             <a href="/register/register.html">REGISTER</a>
          </nav>
      </header>
      <div class="raw">
        <div class="reg">
         <div class="art">
           <h1 class="">Register</h1>
-          <p>Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. <br> Conference passes only cost $99, one of the best values you'll find.</p>
+          <p>Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. Conference passes only cost $99, one of the best values you'll find.</p>
       </div> 
        </div>
      </div>
@@ -33,7 +33,7 @@
           <h5>$99 PER PASS</h5> 
            <P>Purchase your Style Conference pass by using the form to the right.multiple passes may be purchased within the same order, so feel free to bring a friend or two along.Onces your order is finished we'll follow up and provide a receipt for your purchase. See you soon! </P>
            <h4> Why Attend?</h4>
-         
+          <ul class="list">
            <li>
              Over twenty world-class speakers
            </li>
@@ -43,21 +43,23 @@
            </li>
            <li>August in Chicago is simply amazing
            </li>
+          </ul>
        </div>
        <div class="fill"> 
-         <form id="myform" onsubmit="">
-           <h6>Name</h6>
-           <input type="text" id="name"  placeholder="Full name" required>
-           <h6>Email</h6>
-           <input type="email" id="email"  placeholder="Email address" required>
-           <h6>Number of passes</h6>
-           <select name="passes" id="passes" required><option value="1">1</option>
-             <option value="2">2</option>
-             <option value="3">3</option>
-             <option value="4">4</option>
+         <form id="myform">
+           <label>Name</label>
+           <input type="text" id="name" class="write" placeholder="Full name" required>
+           <label>Email</label>
+           <input type="email" id="email" class="write" placeholder="Email address" required>
+           <label>Number of passes</label>
+           <select name="passes" class="write" id="passes" required>
+             <option value="">1</option>
+             <option value="">2</option>
+             <option value="">3</option>
+             <option value="">4</option>
            </select>
-           <h6>Comments</h6>
-           <textarea id="comment" rows="10"></textarea>
+           <label>Comments</label>
+           <textarea id="comment" class="write" rows="10"></textarea>
            <input type="submit" class="but"  value="PURCHASE">
          </form>
        </div>
@@ -66,9 +68,9 @@
     <footer class="footer cont">
         <small class="copy"> &copy; Styles Conference</small>
         <nav class="navigation">
-            <a href="index.html">HOME</a>
-            <a href="venue.html">VENUE</a>
-            <a href="register.html">REGISTER</a>
+            <a href="/index.html">HOME</a>
+            <a href="/venue/venue.html">VENUE</a>
+            <a href="/register/register.html">REGISTER</a>
         </nav>
     </footer>
     <script src="./JS/script.js"></script>

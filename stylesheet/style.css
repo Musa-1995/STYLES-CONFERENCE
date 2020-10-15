@@ -1,7 +1,7 @@
 body{
     background-color: #293f50;
     color: #888;
-    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .header{
@@ -9,9 +9,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     font-weight: 100;
-    line-height: 44px;
-    letter-spacing: 5px;
+    line-height: 250%;
+    letter-spacing: 0.5rem;
 }
 .header a{
     text-decoration: none;
@@ -19,26 +20,22 @@ body{
 .logo{
     border-top: 4px solid #648880;
     color: white;
-    font-size: 48px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-weight: 100;
-    letter-spacing: 5px;
-    
+    font-size: 150%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-weight: 100;   
 }
 .logo:hover{
     color: #648880;
 }
 .navigation h3{
     letter-spacing: normal;
-    
 }
 .navigation a{
     color: white;
     text-decoration: none;
-    padding: 5px;
-    margin-right: 10px;
     letter-spacing: normal;
+    font-size: 75%;
 }
 a {
     text-decoration: none;
@@ -51,10 +48,10 @@ h1,h2,h3,h4,h5,h6{
     color:  #648880;
 }
 h1, h3, h4, h5, p{
-    margin-bottom: 22px;
+    margin-bottom: 4%;
 }
 .contain, .cont{
-    width: 960px;
+    width: 75%;
     margin: 0 auto;
 }
 .clums{
@@ -62,65 +59,55 @@ h1, h3, h4, h5, p{
     text-align: justify;
 }
 .register{
-    width: 960px;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
-    line-height: 44px;
+    line-height: 150%;
     background-color: #293F50;
     color: #fff;
-    padding: 22px 80px 66px 80px;
-    font-size: 24px;
+    padding: 2%;
+    padding-left:15%;
+    padding-right: 15%;
 }
-.register h1{
-    font-size: 36px;
-    font-weight: 100;
-}
-.register p{
-    font-size: 24px;
-    font-weight: 100;
-}
-.but{
+
+.but-reg{
     background-color: #293F50;
     border: 1px solid white;
     border-radius: 5px;
-    font-size: 18px;
-    padding: 20px;
-    margin-top: 20px;
+    font-size: 70%;
+    padding: 1.5%;
+    margin-top: 2%;
     color: white;
 }
-.but:hover{
+.but-reg:hover{
     background-color: white;
     border-radius: 5px;
-    font-size: 18px;
-    padding: 20px;
+    font-size: 70%;
+    padding: 2%;
     color: #293F50;
 }
-.map{
+.map, .map1{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height:250px;
-    margin-bottom: 2%;
+    justify-content: space-between;
+    width: 75%;
+    height:10%;
+    margin: auto;
 }
 .grid1{
     margin: 0 auto;
-    width: 960px;
+    width: 99%;
 }
 .map1{
     margin-top: 5%;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height:250px;
 }
 .venue-map{
-    width: 70%;
+    width: 55%;
 }
 .theatre{
     width: 40%;
 }
 img{
-    width: 288px;
+    width: 99%;
     border-radius: 5px;
 }
 .footer{
@@ -128,61 +115,74 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 44px 30px 44px 30px;
-    font-size: 14px;
+    padding: 3%;
 }
+
 .copy{
     color:  #648880;
+    font-size: 14px;
 }
 .raw{
     background:linear-gradient(to right,#a1d3b0, #f6f1d3);
-    padding-top: 44px;
-    padding-bottom: 22px;
-    height: 100px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    height: 7%;
 }
 .reg{
-    width: 960px;
+    width: 75%;
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
 }
 .art{
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 960px;
+    padding-left: 6%;
+    padding-right: 6%;
+    width: 75%;
     margin: 0 auto;
 
 }
 .pass{
     width: 100%;
     background: #fff;
-    padding-top: 66px;
-    padding-bottom: 44px;
+    padding-top: 6%;
+    padding-bottom: 3%;
 }
 .grid{
     margin: 0 auto;
-    width: 960px;
+    width: 75%;
     display: flex;
     justify-content: space-between;
 }
 .attend,.fill{
     display: inline-block;
     vertical-align: top;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .attend{
-    width: 66.66%;
+    width: 66%;
+    padding-right: 2%;
 }
-input, textarea, select{
+.fill{
+    width: 35%;
+}
+#myform{
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 2%;
+}
+.list{
+    margin: 0 0 22px 30px;
+}
+.write{
     border: 1px solid #c6c9cc;
     border-radius: 5px;
     color: #888;
     display: block;
     margin: 5px 0 27px 0;
     padding: 5px 8px;
-    width: 100%;
+    width: 90.8%;
+    font-size: 16px;
 }
 textarea{
     height: 78px;
@@ -195,16 +195,46 @@ select{
     border: 0;
     background: #648880;
     padding: 11px 30px;
-    font-size: 14p;
+    font-size: 14px;
     border-radius: 5px;
+    color: white;
 
 }
 .but:hover{
     border: 0;
     background: #7fa79e;
     padding: 11px 30px;
-    font-size: 14p;
+    font-size: 14px;
     border-radius: 5px;
     cursor: pointer;
     color: white;
 }
+/* @media only screen and (min-width: 360px){
+    *{
+        width: 100%;
+        font-size: 100%;
+    }
+    .register{
+        width: 100%;
+        padding: 1%;
+        font-size: 90%;
+        text-align: center;
+    }
+    .register p{
+        font-size: 80%;
+        line-height: 90%;
+        
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+} */
