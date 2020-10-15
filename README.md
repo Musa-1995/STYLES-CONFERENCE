@@ -19,8 +19,6 @@ It also contain the nagivation map
 
 ## The prototype of the app
 ![the_picture_preview_of_STYLES-CONFERENCE.](./images/home.png "This is the home page prototype.")
-![the_picture_preview_of_STYLES-CONFERENCE.](./images/map.png "This is the venue page prototype.")
-![the_picture_preview_of_STYLES-CONFERENCE.](./images/reg.png "This is the register prototype.")
 
 ## Developed with
 * HTML
