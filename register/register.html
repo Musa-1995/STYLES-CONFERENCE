@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="./stylesheet/style.css">
-    <link rel="stylesheet" href="./stylesheet/reset.css">
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="stylesheet" href="/stylesheet/reset.css">
 </head>
 <body>
     <header class="header cont">
@@ -48,18 +48,18 @@
        <div class="fill"> 
          <form id="myform">
            <label>Name</label>
-           <input type="text" id="name"  placeholder="Full name" required>
+           <input type="text" id="name" class="write" placeholder="Full name" required>
            <label>Email</label>
-           <input type="email" id="email"  placeholder="Email address" required>
+           <input type="email" id="email" class="write" placeholder="Email address" required>
            <label>Number of passes</label>
-           <select name="passes" id="passes" required>
+           <select name="passes" class="write" id="passes" required>
              <option value="">1</option>
              <option value="">2</option>
              <option value="">3</option>
              <option value="">4</option>
            </select>
            <label>Comments</label>
-           <textarea id="comment" rows="10"></textarea>
+           <textarea id="comment" class="write" rows="10"></textarea>
            <input type="submit" class="but"  value="PURCHASE">
          </form>
        </div>
