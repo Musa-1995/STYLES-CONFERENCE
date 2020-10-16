@@ -1,8 +1,7 @@
-
-document.getElementById("myform").onsubmit = recheck;
-
-
-function recheck(e){
+function infom(){
+    alert("Your form have submitted");
+}
+const recheck = (e) => {
     e.preventDefault();
     var fullName;
     var email;
@@ -20,5 +19,7 @@ function recheck(e){
     let c = message.value;
 
     console.log(name,mail,p,c);
-    alert("Your form have submitted");
+    console.log(this);
+    this.infom();
 }
+document.getElementById("myform").onsubmit = recheck;
